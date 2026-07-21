@@ -1,43 +1,36 @@
-/* CSS Reset */
-/* Box sizing  */
-*,
-*::before
-*::after{
-    box-sizing: border-box;
+header{
+    padding: 10px;
+    background-color: gold;
+    color: black;
 }
+    /* display: flex;
+    justify-self: space-between;
+    align-items: center; */
 
-/* Remove default margins */
-*{
-    margin: 0;
+
+/* header > nav > ul {
+    display: flex;
+    li {
+        list-style: none;
+    }
+    
+} */
+ header>nav>ul{
+    gap: 10px
+    ;
+    list-style:none;
+ }
+
+.flex{
+    display: flex;
 }
-/* improves text rendering */
-html{
-    scroll-behavior: smooth;
-    -webkit-text-size-adjust: 100%;
+.justify-content-between{
+    justify-content:space-between;
 }
-
-body{
-    min-height: 100vh;
-    line-height: 1.5;
-    text-rendering: optimizeLegibility;
-}
-
-/* Better media defauts */
-
-
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-
-}
-
-/* Links */
-a{
-    color: inherit;
+a.no-decoraton {
     text-decoration: none;
 }
 
-/* Button */
-button{
-    cursor: pointer;
+.hover-yellow:hover{
+    color: darkgreen;
 }
