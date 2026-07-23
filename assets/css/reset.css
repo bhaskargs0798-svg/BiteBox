@@ -38,6 +38,7 @@ a{
 }
 
 /* Button */
-button{
+button, i {
     cursor: pointer;
+    
 }

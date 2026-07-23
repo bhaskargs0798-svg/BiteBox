@@ -1,6 +1,6 @@
 header{
 
-    padding: 10px;
+    padding: 20px;
     background-color: gold;
     color: black;
 }
@@ -19,17 +19,35 @@ header{
 } */
  header>nav>ul{
     gap: 10px;
-
-
     list-style:none;
  }
 
 .flex{
     display: flex;
 }
+.btn{
+    padding: 4px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(186, 186, 186);
+    
+
+}
+button{
+    color: white;
+    background-color: red;
+    border: none;
+}
+
 .justify-content-between{
     justify-content:space-between;
 }
+
+.aligin-iteam-center{
+    align-items: center;
+}
+
 a.no-decoraton {
     text-decoration: none;
 }
