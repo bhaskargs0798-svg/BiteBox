@@ -1,64 +1,82 @@
 header{
-
-    padding: 20px;
-    background-color: gold;
-    color: black;
+    height: 6vh;
+    min-height: 30px;
+    max-height: 30px;
+    padding:5px;
+    background-color:green;
+    color:white;
+    z-index: 1000;
 }
-
-    /* display: flex;
-    justify-self: space-between;
-    align-items: center; */
-
-
-/* header > nav > ul {
-    display: flex;
-    li {
-        list-style: none;
-    }
-    
-} */
- header>nav>ul{
-    gap: 10px;
-    list-style:none;
- }
-
 .flex{
-    display: flex;
+    display:flex;
 }
-.btn{
-    padding: 4px;
-    border-radius: 5px;
-    overflow: hidden;
-    border: none;
-    box-shadow: 1px 1px 1px 1px rgb(186, 186, 186);
-    
-
-}
-button{
-    color: white;
-    background-color: red;
-    border: none;
-}
-
 .justify-content-between{
     justify-content:space-between;
 }
-
-.aligin-iteam-center{
-    align-items: center;
+.align-items-center{
+    align-items:center;
 }
-
-a.no-decoraton {
+a.no-decoration{
     text-decoration: none;
+
 }
 
-.hover-yellow:hover{
-    color: darkgreen;
+header>nav>ul{
+    font-size: 20px;
+    gap: 50px;
+    list-style:none;
 }
+
+.hower-yellow:hover{
+    color:purple;
+}
+
+
+    /* display:flex;
+    justify-content:space between;
+    align-items:center;
+}
+header>nav>ul{
+    display:flex;
+    list-style:none;
+} */
+
 
 img.h-100{
-    height: 3em;
+    height:2em;
 }
 .flex{
-    display: flex;
+    display:flex;
+}
+.btn{
+    padding:5px 10px;
+    overflow:hidden;
+    background-color:red;
+    color:antiquewhite;
+
+}
+list{
+    gap: 20px;
+}
+main{
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.position-fixed{
+    position:fixed;
+    width:100%;
+}
+.bg-dark{
+    background-color:gold;
+    color:white;
+}
+footer{
+height: 3vh;
+    min-height: 22px;
+    max-height: 25px; 
+   bottom:0;
+    background-color:gold;
+    color:white;
+    text-align:center;
+    z-index: 1000;
 }
