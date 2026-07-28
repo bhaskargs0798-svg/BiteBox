@@ -23,12 +23,12 @@ a.no-decoration{
 
 header>nav>ul{
     font-size: 20px;
-    gap: 50px;
+    gap: 15px;
     list-style:none;
 }
 
 .hower-yellow:hover{
-    color:purple;
+    color:green;
 }
 
 
@@ -53,6 +53,7 @@ img.h-100{
     overflow:hidden;
     background-color:red;
     color:antiquewhite;
+    border: 0;
 
 }
 list{
