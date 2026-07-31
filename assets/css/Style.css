@@ -43,7 +43,7 @@ img.h-100 {
 }
 
 .gap-basic {
-    gap: 5px;
+    gap: 10px;
 }
 
 .flex {
@@ -126,7 +126,7 @@ button.login {
     height: 65%;
     background-color: black;
     background-image: url("../image/product/image.jfif/");
-    
+
 }
 .card-body {
     height: 35%;
