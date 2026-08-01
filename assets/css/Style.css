@@ -107,7 +107,7 @@ button.login {
     margin: 2px;
 }
 .card { 
-    width: 180px;
+    width: 185px;
     height: 320px;
     overflow: hidden;
     position: relative;
@@ -137,6 +137,7 @@ button.login {
     
     p.price {
         font-size: small;
+        background-color: gold;
     }
 .add-to-cart {
     position: absolute;
@@ -156,3 +157,47 @@ button.login {
     box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.386);
 }
 }
+
+/* .menu-container{ 
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}*/
+.menu-container{
+    max-width: 1000px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+del{
+    font-style: italic;
+    font-weight: 100;
+    color: black;
+}
+@media screen and (main-width: 400px){
+    .menu-container{
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+@media screen and (main-width: 700px){
+    .menu-container{
+        grid-template-columns: auto auto auto auto;
+    }
+    
+}
+
+    
+
+
+/*.card: :nth-child(1) { 
+    transform: scale(0.98);
+    color
+}*/
+
