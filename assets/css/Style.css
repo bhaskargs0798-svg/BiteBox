@@ -82,7 +82,7 @@ a.no-decoration {
     color: green;
 }
 
-button.login {
+a.login {  
     color: white;
     background-color: red;
     box-shadow: none;
@@ -200,4 +200,22 @@ del{
     transform: scale(0.98);
     color
 }*/
+ #auth-container{
+    width: 30vw;
+    min-height:40vh;
 
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+ }
+ /* .input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    grid-area: columm;
+ } */
+  .btn-login{
+    background-color: gold;
+    color: black;
+  }
