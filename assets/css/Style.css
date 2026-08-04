@@ -28,6 +28,7 @@ footer {
 }
 .round-border {
     border-radius: 5px;
+    border: none;
 }
 .basic-shadow {
     box-shadow: 1px 1px 1px 1px grey;
@@ -206,13 +207,47 @@ del{
     color
 }*/
  #auth-container{
-    width: 30vw;
-    min-height:40vh;
+    width: 40vw;
+    max-width: 250px;
+    /* min-height:40vh; */
+    color: whitesmoke;
+    background-color: black;
+    
 
     position: fixed;
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
+ }
+ form{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+ }
+ form > div{
+    fornt-size: xx-small;
+ }
+ input{
+    margin: 0px;
+ }
+ 
+ input:focus {
+    outline: 1px rgb(255, 215, 0) solid;
+ }
+ input::placeholder{
+    font-size: x-small;
+ }
+
+ label{
+    /* visibility: hidden; */
+    display: none;
+ }
+ fieldset {
+    border: none;
+    flex-direction: column;
  }
  /* .input-container{
     display: flex;
@@ -223,4 +258,26 @@ del{
   .btn-login{
     background-color: gold;
     color: black;
+
   }
+  fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+
+  }
+.form-button > button{
+    font-size: xx-small;
+}
+
+.gold
+{
+    color: gold;
+}
+
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
