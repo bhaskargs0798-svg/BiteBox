@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart | Bite Box</title>
+    <title>Hot Deal | Bite Box</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/x-icon">
@@ -13,17 +13,18 @@
     <script src="https://kit.fontawesome.com/c9da710483.js" crossorigin="anonymous"></script>
 
     <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/variable.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-
+    
 
 </head>
 
 <body>
     <header class="flex justify-content-between align-items-center position-fixed bg-dark">
         <div class="flex justify-content-between align-items-center">
-            <img class='h-100' src="assets/image/logo/logo_without_bg_png.ico" alt="">
+            <img class = 'h-100' src="assets/image/logo/logo_without_bg_png.ico" alt="">
             <h1>
                 Bitebox
             </h1>
@@ -36,7 +37,7 @@
                     </a>
                 </li>
                 <li class="no-decoration">
-                    <a class="no-decoration hover-yellow" href="menu.html">Menu</a>
+                    <a class="no-decoration hover-yellow " href="menu.html">Menu</a>
                 </li>
                 <li class="no-decoration">
                     <a class="no-decoration hover-yellow" href="">About</a>
@@ -45,51 +46,30 @@
                     <a class="no-decoration hover-yellow" href="">Contact</a>
                 </li>
                 <li class="no-decoration">
-                    <a class="no-decoration hover-yellow" href="">Cart</a>
+                    <a class="no-decoration hover-yellow" href="cart.html">Cart</a>
                 </li>
-              
-            
+               
                 <li class="no-decoration">
-               <a href="login.html" class="btn login hover-yellow">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <a href="login.html" class="btn login hover-yellow">Login <i class="fa-solid fa-right-to-bracket"></i></a>
                 </li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section id="hero">
+            <h2>
+                Delicious food in minutes!!!
+            </h2>
+            <button class="btn">
+                Order Now!!!
+            </button>
 
-        <section class="cart">
-            <h2>My cart</h2>
-            <div class="menu-container">
-            <div class="flex justify-content-between flex-col ">
-                            <span class="card-ingredients ">
-                                Cheese, Cabbage, Tomato, Onion
-                            </span>
-                            <div class="flex justify-content-between align-items-center "> 
-                                <p class="price">
-                                    Rs. <del>100</del>80
-                                </p>
-                                <h6 class="offer-percent">Flat 20% OFF</h6>
-                            </div>
-                             
-                            <div class="cart-item img"><img src="assets/image/logo/product/images.png" alt=""></div>
-                            <button class="btn add-to-cart">+</button>
-                            <button class="btn add-to-cart">-</button>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-          
         </section>
-
     </main>
 
-    <footer class="position-fixed bg-dark">
-        &copy; 2026
+    <footer class="position-fixed bg-dark"> 
+            &copy; 2026 
     </footer>
 </body>
 

@@ -194,12 +194,9 @@ del{
     
 }
 
-.cart {
-    max-width: 100vh;
-    max-height: 50vh;
-}
 
-    
+
+   
 
 
 /*.card: :nth-child(1) { 
@@ -281,3 +278,30 @@ del{
 .p-10{
     padding: 10px;
 }
+
+/* DEALS */
+a.deal:hover{
+      color: var(--deal-link-color);
+     
+}
+@keyframes colorshift{
+    0%{
+        color: var(--deal-link-color);
+    }
+    25%{
+        color: aqua;
+    }
+    50%{
+        color: blueviolet;
+    }
+    75%{
+        color: green;
+    }
+    100%{
+        color: var(--deal-link-color);
+    }
+}
+a.deals{
+    animation: colourshift 2s infinite;
+}
+
